@@ -1,0 +1,56 @@
++-----------------------+
+|        Book_Bai2      |
++-----------------------+
+| - bookId: String      |
+| - bookName: String    |
+| - price: double       |
+| - discount: double    |
++-----------------------+
+| + Book_Bai2(bookId:   |
+|             String,  |
+|             bookName:|
+|             String)  |
+| + Book_Bai2(bookId:   |
+|             String,  |
+|             bookName:|
+|             String,  |
+|             price:   |
+|             double,  |
+|             discount:|
+|             double)  |
+| + getBookId(): String|
+| + setBookId(bookId:  |
+|             String): |
+|              void    |
+| + getBookName():     |
+|             String   |
+| + setBookName(bookName: |
+|             String): |
+|              void    |
+| + getPrice(): double |
+| + setPrice(price:    |
+|             double): |
+|              void    |
+| + getDiscount():     |
+|             double   |
+| + setDiscount(discount: |
+|             double): |
+|              void    |
+| + getSellingPrice(): |
+|             double   |
+| + printBookInfo():   |
+|              void    |
++-----------------------+
+
+                        |
+                        | (phụ thuộc)
+                        |
+                        V
++-----------------------+
+|         Main_Bai2     |
++-----------------------+
+|                       |
++-----------------------+
+| + main(args: String[]): |
+|              void    |
++-----------------------+

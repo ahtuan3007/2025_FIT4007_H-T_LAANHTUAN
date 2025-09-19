@@ -1,0 +1,49 @@
++-----------------------+
+|       Bai3_Student    |
++-----------------------+
+| - studentId: String   |
+| - name: String        |
+| - birthYear: int      |
+| - address: String     |
++-----------------------+
+| + Bai3_Student(       |
+|    studentId: String,|
+|    name: String)     |
+| + Bai3_Student(       |
+|    studentId: String,|
+|    name: String,     |
+|    birthYear: int,   |
+|    address: String)  |
+| + getStudentId():    |
+|    String            |
+| + getName(): String  |
+| + getBirthYear():    |
+|    int               |
+| + getAddress():      |
+|    String            |
+| + setStudentId(      |
+|    studentId: String):|
+|    void              |
+| + setName(name:      |
+|    String): void     |
+| + setBirthYear(      |
+|    birthYear: int):  |
+|    void              |
+| + setAddress(        |
+|    address: String): |
+|    void              |
+| + calculateAge(): int|
++-----------------------+
+
+                        |
+                        | (phụ thuộc)
+                        |
+                        V
++-----------------------+
+|       Bai3_Main       |
++-----------------------+
+|                       |
++-----------------------+
+| + main(args: String[]): |
+|              void    |
++-----------------------+

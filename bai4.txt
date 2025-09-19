@@ -1,0 +1,33 @@
++-----------------------+
+|       Bai4_Circle     |
++-----------------------+
+| - radius: double      |
++-----------------------+
+| + Bai4_Circle()       |
+| + Bai4_Circle(        |
+|    radius: double)   |
+| + getRadius():        |
+|    double            |
+| + setRadius(         |
+|    radius: double):  |
+|    void              |
+| + Input(): void       |
+| + Output(): void      |
+| + calculateArea():    |
+|    double            |
+| + calculatePerimeter(): |
+|    double            |
++-----------------------+
+
+                        |
+                        | (phụ thuộc)
+                        |
+                        V
++-----------------------+
+|       Bai4_Main       |
++-----------------------+
+|                       |
++-----------------------+
+| + main(args: String[]): |
+|              void    |
++-----------------------+
